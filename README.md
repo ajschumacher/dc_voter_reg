@@ -11,3 +11,6 @@ On the CD were two files:
 
  * The data was in a Microsoft Access database file called `DC VH EXPORT.MDB` (154 MB). I bought a PC laptop running Windows 8, purchased and installed Microsoft Access, opened the file and exported the data as text. It comes out as 130 megabytes of uncompressed text. I was able to get the column headers out and stick them on top of the file so that it can be read as nice CSV. Zipped (using the Windows built-in) the result is the 20 MB [20141218-dc_voters.csv.zip](20141218-dc_voters.csv.zip).
  * The provided documentation file was a plain text `Read Me.txt`. I renamed this to [20141218-dc_voters.txt](20141218-dc_voters.txt). It seems slightly out of date with respect to the data in that the later columns corresponding to elections are not the same in the documentation and in the data. These column names are interpretable as MMYYYY-T, I believe, where MM is numeric month, YYYY is four-digit year, and T is a letter corresponding to election type. I think G is General and P is primary.
+
+*Slightly more
+[on my blog](http://planspace.org/20141220-dc_voter_registration_data/).*
